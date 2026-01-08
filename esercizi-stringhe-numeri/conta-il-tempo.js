@@ -12,3 +12,25 @@
 
   http://www.imparareaprogrammare.it
 */
+var time = 56478;
+var minute = 60;
+var hour = 3600;
+
+
+var hours = Math.floor (time / hour);
+var minutes = Math.floor (time / minute) - (hours * minute);
+var seconds = time - ((minutes * minute) + (hours * hour));
+
+
+console.log(hours, minutes, seconds);
+
+/* var time = 33456;
+var minuto = 60;
+var ore = 3600;
+
+
+var oreTotali = Math.floor (time / ore);
+var minutiTotali = Math.floor ((time % ore) / minuto);
+var secondiTotali = (time % minuto);
+
+console.log(oreTotali, minutiTotali, secondiTotali); */
