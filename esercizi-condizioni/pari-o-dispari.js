@@ -15,3 +15,12 @@
 
   http://www.imparareaprogrammare.it
 */
+var number = 62;
+
+
+ if (number % 2 == 0 ) {
+        console.log("è pari");
+
+} else {
+  console.log("è dispari");
+}
