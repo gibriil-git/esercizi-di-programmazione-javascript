@@ -11,3 +11,11 @@
 
   http://www.imparareaprogrammare.it
 */
+var today = 2020;
+var birthday = 1984;
+
+
+var age = today - birthday;
+var centuryRest = 100 - (age);
+
+console.log(age, centuryRest);

@@ -8,3 +8,16 @@
   
   http://www.imparareaprogrammare.it
 */
+var a = 10;
+var b = 21;
+var c = 3;
+var d = 42;
+var e = 5;
+
+
+var group = [a, b, c, d, e];
+
+var sum = (a + b + c + d + e );
+var average = sum / group.length;
+
+console.log (sum, average);
