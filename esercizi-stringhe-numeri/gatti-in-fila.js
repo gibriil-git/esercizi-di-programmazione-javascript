@@ -17,3 +17,14 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var cats = 44;
+var inLine = 6;
+var line = Math.ceil(cats/inLine);
+var missingCats = (line * inLine) - cats;
+
+console.log(line,missingCats);
+console.log(`${cats} gatti in fila per ${inLine} si unirono compatti in ${line} file. Nell ultima fila rimasero ${missingCats} posti gatto disponibili.`);
+
+
+//console.log('${cats} gatti in fila per ${inLine} si unirono compatti in ${line} file. Nell ultima fila rimasero ${missingCats} posti gatto disponibili.');
